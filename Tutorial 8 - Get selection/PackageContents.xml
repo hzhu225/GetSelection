@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="AutoCAD"
+                    ProductType="Application"
+                    Name="Tutorial_8___Get_selection">
+  <CompanyDetails Name="" Phone=" " Url="" Email="" />
+  <RuntimeRequirements SeriesMax="R20.0"
+                       SeriesMin="R20.0"
+                       Platform="Civil3D"
+                       OS="Win32|Win64" />
+  <Components>
+    <ComponentEntry AppName="Commands for Tutorial_8___Get_selection"
+                    Version="1.0"
+                    ModuleName="./Contents/Win/Tutorial_8___Get_selection.dll"
+                    AppDescription="Descrition for command module of Tutorial_8___Get_selection"
+                    LoadOnCommandInvocation="True" LoadOnRequest="True">
+      <Commands>
+        <Command Local="testPointLabel" Global="testPointLabel" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>
